@@ -6,6 +6,7 @@
   - [Winning The Game](#Winning-The-Game)
   - [Player Actions](#Player-Actions)
   - [Rules](#Rules)
+- [AI Implementation Details](AI-Implementation-Details)
 
 ---
 
