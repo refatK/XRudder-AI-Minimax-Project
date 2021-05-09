@@ -33,9 +33,11 @@ The game "XRudder" is similar to Tic-Tac-Toe in which 2 player add tokens to a g
 To win the game the player must get their token to match an "X shape" before their opponent does. The "X Shape" must also be made without it being "crossed out" by the opponent's tokens. If neither player is able to reach this by the end of the game, the game results in a tie. Here is an example of a winning state:
 
 ![Example where player 1 is the winner.](https://user-images.githubusercontent.com/31963426/117557842-5fb71c80-b045-11eb-82ae-770542d26002.png)
+
 *In this example player 1 with "■" tokens has won by making the "X shape"*.
 
 ![Example where player 1 creates an X shappe that is crossed out so they haven't won.](https://user-images.githubusercontent.com/31963426/117558531-58474180-b04c-11eb-8662-59b50d1d7496.png)
+
 *In this example player 1 with "■" tokens has made the "X shape", but player 2 is "crossing" it making the game continue*.
 
 ### Player Actions
@@ -47,7 +49,9 @@ Players have 2 possible actions they can take:
    - The player can only add a token to a unoccupied space (coordinate that doesn't contain any token).
    - If the player is out of tokens, they are not allowed to take this action.
    - **Example:**
+
    ![image](https://user-images.githubusercontent.com/31963426/117557977-c38e1500-b046-11eb-8c41-ff4a78d67877.png)
+   
    *Player 1 adding a token to the coordinate C6 by inputting `C6`*
 
 2. **Move token on board:**
@@ -56,7 +60,9 @@ Players have 2 possible actions they can take:
    - The player can only move a token to an adjacent unoccupied space. This is any unoccupied space that is one space up, down, left, right or diagonol to the current position. This is similar to how a King piece is allowed to move in a game of chess.
    - If the game session is out of moves the player is not allowed to take this action.
    - **Example:**
+
    ![image](https://user-images.githubusercontent.com/31963426/117558069-9beb7c80-b047-11eb-95d7-4f0a2bf1d00c.png)
+   
    *Player 1 moving a token from D4 to D3 by inputting `D4 D3`*
 
 ### Rules
@@ -71,4 +77,4 @@ Players have 2 possible actions they can take:
 
 A PDF report was made for this project describing the startegies used when implementing the AI in terms of heuristics and optimizations, as well as it's results when playing against other AIs created by other students for the same project.
 
-The report can be accessed [by clicking here](invalid.com).
+The report can be accessed [by clicking here](https://github.com/refatK/XRudder-AI-Minimax-Project/blob/main/Report%20and%20Analysis.pdf).
