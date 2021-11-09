@@ -1,5 +1,9 @@
 # XRudder Ai Game with Minimax and Heuristic Analysis
 
+### [CLICK HERE TO PLAY THE GAME ON BROWSER](https://replit.com/@refatk17/XRudder-AI-Minimax-Project) (Powered by Replit)
+
+---
+
 - [Project Summary](#Project-Summary)
 - [Running The Game](#Running-The-Game)
 - [How To Play](#How-To-Play)
