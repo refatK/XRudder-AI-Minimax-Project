@@ -10,13 +10,14 @@
   - [Winning The Game](#Winning-The-Game)
   - [Player Actions](#Player-Actions)
   - [Rules](#Rules)
-- [AI Implementation Details](#AI-Implementation-Details)
 
 ---
 
 ## Project Summary
 
 This project involves the implementation of a simple 2-player, zero-sum game with an AI implementation predicated on the Minimax algorithm along with heuristic analysis for the AI's method of determining the best move it can make based on the current game state. The AI is built on the premise that the opponent will also try to make the most optimal moves possible and optimizations were made to allow the AI to make deeper analysis within the Minimax tree while also trying to maintain a fast as possible calculation.
+
+#### A detailed report about the optimization and heuristic strategies used can be accessed [by clicking here](https://github.com/refatK/XRudder-AI-Minimax-Project/blob/main/Report%20and%20Analysis.pdf).
 
 ## Running The Game
 
@@ -77,9 +78,3 @@ Players have 2 possible actions they can take:
 - Player actions are subject to rules as described in the [Player Actions](#Player-Actions) section.
 - A player wins by matching the conditions described in the [Winning The Game](#Winning-The-Game) section.
 - If both players run out tokens to add or move, the game ends in a draw.
-
-### AI Implementation Details
-
-A PDF report was made for this project describing the strategies used when implementing the AI in terms of heuristics and optimizations, as well as it's results when playing against other AIs created by other students for the same project.
-
-The report can be accessed [by clicking here](https://github.com/refatK/XRudder-AI-Minimax-Project/blob/main/Report%20and%20Analysis.pdf).
